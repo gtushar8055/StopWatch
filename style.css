@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0,0%,90%);
+}
+
+#myH1{
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: hsl(0,0%,25%);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: white;
+    padding: 30px;
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color : hsl(0 ,0% , 30%)
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    color:white
+}
+
+#startBtn{
+    background-color: green;
+    transition : linear 0.25s background;
+}
+#startBtn:hover{
+    background: peru;
+}
+#stopBtn{
+    background-color: red;
+    transition : linear 0.25s background;
+}
+#stopBtn:hover{
+    background : yellow;
+}
+#resetBtn{
+    background-color: blue;
+    transition : linear 0.25s background;
+}
+#resetBtn:hover{
+    background: pink;
+}
